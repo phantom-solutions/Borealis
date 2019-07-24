@@ -7,6 +7,37 @@ body {
   overflow-x: hidden;
 }
 
+#green_header_bar{
+    width:100%;
+    height:6px;
+    background: rgb(50, 164, 112);
+}
+
+#menu_category_spacer{
+    width:100%;
+    height:30px;
+	padding: 0.875rem 1.25rem;
+	font-size: 0.7rem;
+	color: rgb(105,115,126);
+	margin-top: 10px;
+}
+
+.bg-dark {
+    background-color: rgb(38, 44, 50)!important;
+}
+
+a.bg-dark:hover {
+    background-color: rgb(50, 164, 112)!important;
+}
+
+a.bg-dark:focus {
+	background-color: rgb(28, 34, 40)!important;
+}
+
+button.bg-dark:focus, button.bg-dark:hover {
+    background-color: #444444!important;
+}
+
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
@@ -18,7 +49,7 @@ body {
 
 #sidebar-wrapper .sidebar-heading {
   padding: 0.875rem 1.25rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: rgb(255,255,255)
 }
 
@@ -28,7 +59,17 @@ body {
 
 #sidebar-wrapper .list-group-item-action {
   width: 15rem;
-  color: rgb(67, 181, 129)
+  color: rgb(145,155,166)
+}
+
+#sidebar-wrapper .list-group-item-action:hover {
+  width: 15rem;
+  color: rgb(255,255,255)
+}
+
+#sidebar-wrapper .list-group-item-action:focus {
+  width: 15rem;
+  color: rgb(255,255,255)
 }
 
 #page-content-wrapper {
@@ -37,6 +78,7 @@ body {
 
 #wrapper.toggled #sidebar-wrapper {
   margin-left: 0;
+  background-color: rgb(15, 19, 28)
 }
 
 @media (min-width: 768px) {
@@ -47,7 +89,7 @@ body {
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
-	background: url(images/backdrop.jpg) no-repeat center center fixed; 
+	background: url(../images/backdrop.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;

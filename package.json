@@ -1,8 +1,8 @@
 {
-	"title"	: "Borealis Server Manager",
-	"name"    : "Borealis-Server-Manager",
-	"version" : "0.1.0",
-	"main"    : "main.js",
+	"title": "Borealis Server Manager",
+	"name": "Borealis-Server-Manager",
+	"version": "0.1.0",
+	"main": "main.js",
 	"scripts": {
 		"start": "node_modules/.bin/gulp watch"
 	},

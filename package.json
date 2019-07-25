@@ -9,7 +9,8 @@
 	"dependencies": {
 		"bootstrap": "4.3.1",
 		"electron": "^5.0.8",
-		"jquery": "3.4.1"
+		"jquery": "3.4.1",
+		"request": "^2.88.0"
 	},
 	"devDependencies": {
 		"browser-sync": "2.26.7",

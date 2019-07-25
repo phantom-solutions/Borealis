@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"bootstrap": "4.3.1",
+		"electron": "^5.0.8",
 		"jquery": "3.4.1"
 	},
 	"devDependencies": {

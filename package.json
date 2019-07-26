@@ -1,0 +1,96 @@
+{
+  "name": "Borealis-Server-Manager",
+  "author": "Nicole Rappe",
+  "email": "cyberstrawberry101@gmail.com",
+  "licence": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+	  "start": "nf start -p 3000",
+	  "build": "react-scripts build",
+	  "test": "react-scripts test --env=jsdom",
+	  "eject": "react-scripts eject",
+	  "electron": "electron .",
+	  "electron-start": "node src/start-react",
+	  "react-start": "react-scripts start",
+	  "pack": "build --dir",
+	  "dist": "npm run build && build",
+	  "postinstall": "install-app-deps"
+	},
+<<<<<<< HEAD
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.2.1",
+    "@material-ui/icons": "^4.2.1",
+    "@material-ui/styles": "^4.2.1",
+    "chart.js": "^2.8.0",
+    "clsx": "^1.0.4",
+    "electron": "^5.0.8",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "history": "^4.9.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-chartjs-2": "^2.7.6",
+    "react-dom": "^16.8.6",
+    "react-perfect-scrollbar": "^1.5.3",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.0.1",
+    "recompose": "^0.30.0",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2",
+	"eslint-plugin-react": "^7.14.3",
+    "validate.js": "^0.13.1",
+	"eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.17.1",
+    "prettier-eslint": "^8.8.2",
+    "prettier-eslint-cli": "^4.7.1",
+    "typescript": "^3.5.1"
+  },
+  "devDependencies": {
+    "electron-builder": "^21.1.5"
+  },
+  "homepage": "./",
+  "main": "src/start.js",
+  "build": {
+  "appId": "com.electron.electron-with-create-react-app",
+  "win": {
+    "iconUrl": "https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-256.png"
+  },
+  "directories": {
+    "buildResources": "public"
+  }
+}
+=======
+	"dependencies": {
+		"bootstrap": "4.3.1",
+		"electron": "^5.0.8",
+		"jquery": "3.4.1",
+		"request": "^2.88.0"
+	},
+	"devDependencies": {
+		"browser-sync": "2.26.7",
+		"del": "^4.1.1",
+		"gulp": "4.0.2",
+		"merge-stream": "2.0.0"
+	}
+>>>>>>> c795c84109ae32e233575c403cb89d69dd330f56
+}

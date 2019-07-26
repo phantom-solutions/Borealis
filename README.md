@@ -5,8 +5,6 @@
 
 ## Executing the Test Build
 
-- [Download from Github](https://github.com/devias-io/react-material-dashboard/archive/master.zip) or [Download from Devias](https://devias.io/products/material-react-dashboard) or clone the repo: `git clone https://github.com/devias-io/react-material-dashboard.git`
-
 - Install dependencies: `npm install` or `yarn`
 
 - Start the server: `npm run start` or `yarn start`

@@ -10,7 +10,7 @@ export default [
       city: 'Parkersburg',
       street: '2849 Fulton Street'
     },
-    email: 'C:\FakeFolder\ServerDirectory\Thing',
+    email: 'C:FakeFolderServerDirectoryThing',
     phone: '304-428-3097',
     avatarUrl: '/images/avatars/avatar_3.png',
     createdAt: 1555016400000

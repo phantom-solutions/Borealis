@@ -17,7 +17,6 @@
 	  "dist": "npm run build && build",
 	  "postinstall": "install-app-deps"
 	},
-<<<<<<< HEAD
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -79,18 +78,4 @@
     "buildResources": "public"
   }
 }
-=======
-	"dependencies": {
-		"bootstrap": "4.3.1",
-		"electron": "^5.0.8",
-		"jquery": "3.4.1",
-		"request": "^2.88.0"
-	},
-	"devDependencies": {
-		"browser-sync": "2.26.7",
-		"del": "^4.1.1",
-		"gulp": "4.0.2",
-		"merge-stream": "2.0.0"
-	}
->>>>>>> c795c84109ae32e233575c403cb89d69dd330f56
 }

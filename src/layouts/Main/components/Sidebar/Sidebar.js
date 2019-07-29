@@ -4,13 +4,14 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { Drawer } from '@material-ui/core';
 import DashboardIcon from '@material-ui/icons/Dashboard';
-import PeopleIcon from '@material-ui/icons/People';
-import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import TextFieldsIcon from '@material-ui/icons/TextFields';
 import ImageIcon from '@material-ui/icons/Image';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import SettingsIcon from '@material-ui/icons/Settings';
-import LockOpenIcon from '@material-ui/icons/LockOpen';
+import AddToQueueOutlined from '@material-ui/icons/AddToQueueOutlined';
+import List from '@material-ui/icons/List';
+import Input from '@material-ui/icons/Input';
+import Schedule from '@material-ui/icons/Schedule';
 
 import { SidebarNav } from './components';
 
@@ -23,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     }
   },
   root: {
-    backgroundColor: theme.palette.white,
+    backgroundColor: '#1A2028',
     display: 'flex',
     flexDirection: 'column',
     height: '100%',
@@ -51,32 +52,22 @@ const Sidebar = props => {
     {
       title: 'Deploy GameServers',
       href: '/users',
-      icon: <PeopleIcon />
+      icon: <AddToQueueOutlined />
     },
     {
       title: 'Manage GameServers',
       href: '/manage_gameservers',
-      icon: <ShoppingBasketIcon />
+      icon: <List />
     },
     {
       title: 'Control GameServers',
       href: '/sign-in',
-      icon: <LockOpenIcon />
+      icon: <Input />
     },
     {
       title: 'Scheduled Tasks',
       href: '/typography',
-      icon: <TextFieldsIcon />
-    },
-    {
-      title: 'Icons',
-      href: '/icons',
-      icon: <ImageIcon />
-    },
-    {
-      title: 'Account',
-      href: '/account',
-      icon: <AccountBoxIcon />
+      icon: <Schedule />
     },
     {
       title: 'Settings',

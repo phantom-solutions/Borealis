@@ -33,14 +33,22 @@ const Topbar = props => {
       className={clsx(classes.root, className)}
     >
       <Toolbar>
+      <Hidden lgUp>
+          <IconButton
+            color="inherit"
+            onClick={onSidebarOpen}
+          >
+            <MenuIcon />
+          </IconButton>
+        </Hidden>
         <RouterLink to="/">
 		<Typography
               className={classes.title}
               color="textPrimary"
-              gutterBottom
               variant="body1"
             >
-              <font color="white"><h1>Borealis Server Manager</h1></font>
+              <font color="white" size="5">Borealis Server Manager</font><br></br><font color="white"size="2">Version: 0.01</font>
+
             </Typography>
         </RouterLink>
         <div className={classes.flexGrow} />
@@ -61,14 +69,7 @@ const Topbar = props => {
             <InputIcon />
           </IconButton>
         </Hidden>
-        <Hidden lgUp>
-          <IconButton
-            color="inherit"
-            onClick={onSidebarOpen}
-          >
-            <MenuIcon />
-          </IconButton>
-        </Hidden>
+        
       </Toolbar>
     </AppBar>
   );

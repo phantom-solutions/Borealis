@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import clsx from 'clsx';
-import moment from 'moment';
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
@@ -45,9 +44,10 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const statusColors = {
-  delivered: 'success',
-  pending: 'info',
-  refunded: 'danger'
+  Running: 'success',
+  Starting: 'info',
+  Stopping: 'danger',
+  Stopped: 'danger'
 };
 
 const LatestOrders = props => {
@@ -55,7 +55,7 @@ const LatestOrders = props => {
 
   const classes = useStyles();
 
-  const [orders] = useState(mockData);
+  const [server_data] = useState(mockData);
 
   return (
     <Card
@@ -63,16 +63,7 @@ const LatestOrders = props => {
       className={clsx(classes.root, className)}
     >
       <CardHeader
-        action={
-          <Button
-            color="primary"
-            size="small"
-            variant="outlined"
-          >
-            Details
-          </Button>
-        }
-        title="Configured GameServers"
+        title="Server Performance Dashboard"
       />
       <Divider />
       <CardContent className={classes.content}>
@@ -81,43 +72,37 @@ const LatestOrders = props => {
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell>Order Ref</TableCell>
-                  <TableCell>Customer</TableCell>
-                  <TableCell sortDirection="desc">
-                    <Tooltip
-                      enterDelay={300}
-                      title="Sort"
-                    >
-                      <TableSortLabel
-                        active
-                        direction="desc"
-                      >
-                        Date
-                      </TableSortLabel>
-                    </Tooltip>
-                  </TableCell>
+                  <TableCell>Friendly Server Name</TableCell>
+                  <TableCell>Server Type</TableCell>
+                  <TableCell>Memory Usage</TableCell>
+                  <TableCell>Disk Usage</TableCell>
+                  <TableCell>CPU Usage</TableCell>
+                  <TableCell>Network Usage</TableCell>
+                  <TableCell>Auto-Restart</TableCell>
                   <TableCell>Status</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
-                {orders.map(order => (
+                {server_data.map(server_data => (
                   <TableRow
                     hover
-                    key={order.id}
+                    key={server_data.id}
                   >
-                    <TableCell>{order.ref}</TableCell>
-                    <TableCell>{order.customer.name}</TableCell>
-                    <TableCell>
-                      {moment(order.createdAt).format('DD/MM/YYYY')}
-                    </TableCell>
+                    <TableCell><a href="">{server_data.SERVER_name_friendly}</a></TableCell>
+                    <TableCell>{server_data.SERVER_type}</TableCell>
+                    <TableCell>{server_data.MEMORY_Usage}</TableCell>
+                    <TableCell>{server_data.DISK_Usage}</TableCell>
+                    <TableCell>{server_data.CPU_Usage}</TableCell>
+                    <TableCell>{server_data.NETWORK_Usage}</TableCell>
+                    <TableCell>{server_data.SERVER_auto_restart}</TableCell>
                     <TableCell>
                       <div className={classes.statusContainer}>
                         <StatusBullet
                           className={classes.status}
-                          color={statusColors[order.status]}
+                          color={statusColors[server_data.status]}
                           size="sm"
                         />
-                        {order.status}
+                        {server_data.status}
                       </div>
                     </TableCell>
                   </TableRow>

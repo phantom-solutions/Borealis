@@ -5,12 +5,12 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/styles';
 import { AppBar, Toolbar, Badge, Hidden, IconButton, Typography } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
-import NotificationsIcon from '@material-ui/icons/NotificationsOutlined';
-import InputIcon from '@material-ui/icons/Input';
+import NotificationsIcon from '@material-ui/icons/Notifications';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    boxShadow: 'none'
+    boxShadow: 'none',
+    backgroundColor: '#2E343C'
   },
   flexGrow: {
     flexGrow: 1
@@ -61,12 +61,6 @@ const Topbar = props => {
             >
               <NotificationsIcon />
             </Badge>
-          </IconButton>
-          <IconButton
-            className={classes.signOutButton}
-            color="inherit"
-          >
-            <InputIcon />
           </IconButton>
         </Hidden>
         

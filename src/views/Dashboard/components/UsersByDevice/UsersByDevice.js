@@ -115,7 +115,7 @@ const UsersByDevice = props => {
             <RefreshIcon />
           </IconButton>
         }
-        title="Users By Device"
+        title="Servers by Type"
       />
       <Divider />
       <CardContent>

@@ -54,6 +54,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-chartjs-2": "^2.7.6",
+    "react-circular-progressbar": "^2.0.1",
     "react-dom": "^16.8.6",
     "react-perfect-scrollbar": "^1.5.3",
     "react-router-dom": "^5.0.1",

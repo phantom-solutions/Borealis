@@ -3,62 +3,46 @@ import uuid from 'uuid/v1';
 export default [
   {
     id: uuid(),
-    ref: 'CDD1049',
-    amount: 30.5,
-    customer: {
-      name: 'Ekaterina Tankova'
-    },
-    createdAt: 1555016400000,
-    status: 'pending'
+    SERVER_name_friendly: 'Builders Mayhem',
+    SERVER_type: 'Garrys Mod',
+    MEMORY_Usage: '2.2GB',
+    DISK_Usage: '2.2GB',
+    CPU_Usage: '5.2 %',
+    NETWORK_Usage: '40.0 mbps',
+    SERVER_auto_restart: 'Enabled',
+    status: 'Running'
   },
   {
     id: uuid(),
-    ref: 'CDD1048',
-    amount: 25.1,
-    customer: {
-      name: 'Cao Yu'
-    },
-    createdAt: 1555016400000,
-    status: 'delivered'
+    SERVER_name_friendly: 'To the Nether!',
+    SERVER_type: 'Minecraft',
+    MEMORY_Usage: '2.0GB',
+    DISK_Usage: '4.0GB',
+    CPU_Usage: '2.0 %',
+    NETWORK_Usage: '3.9 mbps',
+    SERVER_auto_restart: 'Enabled',
+    status: 'Running'
   },
   {
     id: uuid(),
-    ref: 'CDD1047',
-    amount: 10.99,
-    customer: {
-      name: 'Alexa Richardson'
-    },
-    createdAt: 1554930000000,
-    status: 'refunded'
+    SERVER_name_friendly: 'Insanity Runners',
+    SERVER_type: 'Half-Life 2: Deathmatch',
+    MEMORY_Usage: '20.2GB',
+    DISK_Usage: '12.1GB',
+    CPU_Usage: '15.0 %',
+    NETWORK_Usage: '18.2 mbps',
+    SERVER_auto_restart: 'Disabled',
+    status: 'Starting'
   },
   {
     id: uuid(),
-    ref: 'CDD1046',
-    amount: 96.43,
-    customer: {
-      name: 'Anje Keizer'
-    },
-    createdAt: 1554757200000,
-    status: 'pending'
-  },
-  {
-    id: uuid(),
-    ref: 'CDD1045',
-    amount: 32.54,
-    customer: {
-      name: 'Clarke Gillebert'
-    },
-    createdAt: 1554670800000,
-    status: 'delivered'
-  },
-  {
-    id: uuid(),
-    ref: 'CDD1044',
-    amount: 16.76,
-    customer: {
-      name: 'Adam Denisov'
-    },
-    createdAt: 1554670800000,
-    status: 'delivered'
+    SERVER_name_friendly: 'Killing Floor Massacre',
+    SERVER_type: 'Killing Floor 2',
+    MEMORY_Usage: '3.0GB',
+    DISK_Usage: '12.1GB',
+    CPU_Usage: '15.0 %',
+    NETWORK_Usage: '2.2 mbps',
+    SERVER_auto_restart: 'Disabled',
+    status: 'Stopped'
   }
 ];

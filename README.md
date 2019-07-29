@@ -1,9 +1,11 @@
 ## Borealis Server Manager - Electron / React Frontend
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-[![React Material Dashboard](https://s3.eu-west-2.amazonaws.com/devias/products/react-material-dashboard/react-material-free-xl.jpg)](https://devias.io/products/devias-kit-pro)
+[![React Material Dashboard](https://cdn.discordapp.com/attachments/276981822343086081/605289140191232000/unknown.png)]()
 
 ## Executing the Test Build
+
+- Delete package-lock.json
 
 - Install dependencies: `npm install` or `yarn`
 

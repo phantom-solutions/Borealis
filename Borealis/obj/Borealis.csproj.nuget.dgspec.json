@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicole.rappe\\source\\repos\\Borealis-Server-Manager\\Borealis\\Borealis\\Borealis.csproj": {}
+    "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicole.rappe\\source\\repos\\Borealis-Server-Manager\\Borealis\\Borealis\\Borealis.csproj": {
+    "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis-Server-Manager\\Borealis\\Borealis\\Borealis.csproj",
+        "projectUniqueName": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
         "projectName": "Borealis",
-        "projectPath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis-Server-Manager\\Borealis\\Borealis\\Borealis.csproj",
+        "projectPath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
         "packagesPath": "C:\\Users\\nicole.rappe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis-Server-Manager\\Borealis\\Borealis\\obj\\",
+        "outputPath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nicole.rappe\\source\\repos\\Borealis-Server-Manager\\NuGet.Config",
           "C:\\Users\\nicole.rappe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -23,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.syncfusion.com/nuget_windows-forms/nuget/getsyncfusionpackages/windows-forms/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

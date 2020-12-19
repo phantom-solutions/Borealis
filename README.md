@@ -4,5 +4,8 @@
 
 ![Early UI Development](https://media.discordapp.net/attachments/276981822343086081/789319037251092500/unknown.png?width=1101&height=702)
 
+# Roadmap / To-Do #
+https://github.com/orgs/phantom-solutions/projects/2
+
 # Discord Development & Discussion #
 https://discord.gg/3mvuHVx

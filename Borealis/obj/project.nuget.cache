@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "33Wm2rE/49tUyPioAinIXfXubt3rv/U5CWt1UNIeCc/baowqIAHH+Q1Y3Lpi53OBh7htzsE8u861zmgJTmu0fA==",
+  "dgSpecHash": "0GKtsF3YoRX/eHqZtGcgCkzy3UhqBy0bQQPenLDRgzQBjLAxerNEpxTbHRofYTf2v7NfxYmDJ8npOp9I31YTrg==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

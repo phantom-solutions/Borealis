@@ -2,6 +2,11 @@
 
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: url(/images/backdrop.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 a, .btn-link {
@@ -10,7 +15,7 @@ a, .btn-link {
 
 .btn-primary {
     color: #fff;
-    background-color: #1b6ec2;
+    background-color: #49B680;
     border-color: #1861ac;
 }
 
@@ -31,7 +36,7 @@ app {
 }
 
     .main .top-row {
-        background-color: #f7f7f7;
+        background-color: #262D3C;
         border-bottom: 1px solid #d6d5d5;
         justify-content: flex-end;
     }
@@ -39,6 +44,7 @@ app {
         .main .top-row > a, .main .top-row .btn-link {
             white-space: nowrap;
             margin-left: 1.5rem;
+            color: #9199A4;
         }
 
 .main .top-row a:first-child {
@@ -47,11 +53,11 @@ app {
 }
 
 .sidebar {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-color: #0E121C;
 }
 
     .sidebar .top-row {
-        background-color: rgba(0,0,0,0.4);
+        background-color: #262D3C;
     }
 
     .sidebar .navbar-brand {
@@ -68,6 +74,7 @@ app {
     .sidebar .nav-item {
         font-size: 0.9rem;
         padding-bottom: 0.5rem;
+        background-color: #0E121C;
     }
 
         .sidebar .nav-item:first-of-type {
@@ -79,7 +86,7 @@ app {
         }
 
         .sidebar .nav-item a {
-            color: #d7d7d7;
+            color: #9199A4;
             border-radius: 4px;
             height: 3rem;
             display: flex;
@@ -88,13 +95,13 @@ app {
         }
 
             .sidebar .nav-item a.active {
-                background-color: rgba(255,255,255,0.25);
-                color: white;
+                color: #49B580;
+                background-color: #282f3e;
             }
 
             .sidebar .nav-item a:hover {
-                background-color: rgba(255,255,255,0.1);
                 color: white;
+                background-color: #282f3e;
             }
 
 .content {
@@ -180,4 +187,101 @@ app {
         /* Never collapse the sidebar for wide screens */
         display: block;
     }
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.progress {
+  width: 150px;
+  height: 150px;
+  background: none;
+  position: relative;
+}
+
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 6px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+
+.rounded-lg {
+  border-radius: 1rem;
+}
+
+.text-gray {
+  color: #aaa;
+}
+
+div.h4 {
+  line-height: 1rem;
 }

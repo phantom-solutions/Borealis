@@ -49,7 +49,7 @@ namespace Borealis
                 Person agent = JsonConvert.DeserializeObject<Person>(message); // Deserialize
                 byte[] bytes = System.Text.Encoding.Unicode.GetBytes("[SERVER RESPONSE] Payload Received from " + agent.Hostname);
                 sender.GetStream().Write(bytes, 0, bytes.Length); // Send the response
-                Console.WriteLine("[AGENT: {0} | IP ADDRESS: {1}] | Payload = {2} bytes | JSON_JATA01: {3}, JSON_JATA02: {4}, JSON_JATA03: {5}", agent.Hostname, agent.Agent_IP, bytes.Length, agent.JSON_DATA01, agent.JSON_DATA02, agent.JSON_DATA03);
+                Console.WriteLine("[AGENT: {0} | IP ADDRESS: {1}] | JSON_JATA01: {2}, JSON_JATA02: {3}, JSON_JATA03: {4}", agent.Hostname, agent.Agent_IP, agent.JSON_DATA01, agent.JSON_DATA02, agent.JSON_DATA03);
             }
         }
 

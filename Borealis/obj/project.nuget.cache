@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "0GKtsF3YoRX/eHqZtGcgCkzy3UhqBy0bQQPenLDRgzQBjLAxerNEpxTbHRofYTf2v7NfxYmDJ8npOp9I31YTrg==",
+  "dgSpecHash": "1wstxQgCjT4Ek6JXYxrXOhxOIXqGEfBOkL0D0MfQQfzNgWSiG811mrtBn8qB3PDdazjMpw9/LWDan2CfIhlTag==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nicole.rappe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.logging.debug\\5.0.0\\microsoft.extensions.logging.debug.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

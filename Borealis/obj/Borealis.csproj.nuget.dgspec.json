@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj": {
-      "version": "1.0.0",
+      "version": "0.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
         "projectName": "Borealis",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"

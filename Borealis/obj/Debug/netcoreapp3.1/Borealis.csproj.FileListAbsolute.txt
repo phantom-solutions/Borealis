@@ -50,7 +50,6 @@ C:\Users\nicole.rappe\source\repos\Borealis-Server-Manager\Borealis\Borealis\obj
 C:\Users\nicole.rappe\source\repos\Borealis-Server-Manager\Borealis\Borealis\obj\Debug\netcoreapp3.1\Borealis.csproj.CopyComplete
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Debug\netcoreapp3.1\Borealis.exe
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Debug\netcoreapp3.1\Borealis.deps.json
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Debug\netcoreapp3.1\Borealis.runtimeconfig.json
@@ -107,3 +106,5 @@ C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Debug\netcoreapp3.1\Raz
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Debug\netcoreapp3.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\obj\Debug\netcoreapp3.1\Borealis.RazorComponent.output.cache
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\obj\Debug\netcoreapp3.1\scopedcss\bundle\Borealis.styles.css

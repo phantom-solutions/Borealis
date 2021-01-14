@@ -50,7 +50,6 @@ C:\Users\nicole.rappe\source\repos\Borealis-Server-Manager\Borealis\Borealis\obj
 C:\Users\nicole.rappe\source\repos\Borealis-Server-Manager\Borealis\Borealis\obj\Release\netcoreapp3.1\Borealis.csproj.CopyComplete
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\appsettings.Development.json
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\appsettings.json
-C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Borealis.exe
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Borealis.deps.json
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Borealis.runtimeconfig.json
@@ -99,3 +98,13 @@ C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\s
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\Borealis.dll
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\Borealis.pdb
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\Borealis.genruntimeconfig.cache
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\obj\Release\netcoreapp3.1\Borealis.RazorComponent.output.cache
+C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\obj\Release\netcoreapp3.1\scopedcss\bundle\Borealis.styles.css

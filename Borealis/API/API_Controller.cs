@@ -11,12 +11,18 @@ namespace Borealis.API
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TestController : ControllerBase
+    public class ServerController : ControllerBase
     {
+        //public void API_Console_Update(string action, string details)
+        //{
+        //    Console.WriteLine("{0} | Request: {1} was made by {2}", DateTime.Now, action, details);
+        //}
+
         // GET: api/Test
         [HttpGet]
         public IEnumerable<string> Get()
         {
+        //    API_Console_Update("Get()", "localhost");
             return new string[] { "value1", "value2" };
         }
 
@@ -25,6 +31,7 @@ namespace Borealis.API
         public string Get(int id)
         {
             int WebHook = id*5;
+        //    API_Console_Update("Get / Value", "localhost");
             return WebHook.ToString();
         }
 

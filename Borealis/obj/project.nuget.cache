@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1wstxQgCjT4Ek6JXYxrXOhxOIXqGEfBOkL0D0MfQQfzNgWSiG811mrtBn8qB3PDdazjMpw9/LWDan2CfIhlTag==",
+  "dgSpecHash": "rS0njt5Fga7uuJgBXQXiyHIiUl/Im2tRGhrjVRQArWnX+8SxVRjfvN7rnHzlaW899eatM8tNXkMf8v7tAISb0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
+  "projectFilePath": "C:\\Users\\nicole.rappe\\Source\\Repos\\Borealis\\Borealis\\Borealis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
@@ -12,7 +12,8 @@
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\nicole.rappe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],
   "logs": []
 }

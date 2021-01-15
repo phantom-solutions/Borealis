@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -18,12 +19,15 @@ namespace Borealis.API
         //    Console.WriteLine("{0} | Request: {1} was made by {2}", DateTime.Now, action, details);
         //}
 
-        // GET: api/Test
-        [HttpGet]
-        public IEnumerable<string> Get()
+        //http://localhost:5000/api/server/query
+        [HttpGet("query")]
+        public ControlPanel Query()
         {
-        //    API_Console_Update("Get()", "localhost");
-            return new string[] { "value1", "value2" };
+            return new ControlPanel
+            {
+                IP = (Dns.GetHostAddresses(Dns.GetHostName())[1].ToString()),
+                HOSTNAME = Dns.GetHostName()
+            };
         }
 
         // GET: api/Test/5
@@ -51,6 +55,11 @@ namespace Borealis.API
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+        }
+        public class ControlPanel
+        {
+            public String IP { get; set; }
+            public String HOSTNAME { get; set; }
         }
     }
 }

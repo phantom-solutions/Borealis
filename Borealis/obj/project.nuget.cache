@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rS0njt5Fga7uuJgBXQXiyHIiUl/Im2tRGhrjVRQArWnX+8SxVRjfvN7rnHzlaW899eatM8tNXkMf8v7tAISb0w==",
+  "dgSpecHash": "MNracQq8KYMDHHjNMDCXaKHhWN/rmYqemR9BRgzKiIub89eTnfAAn6VX3zCWaSBorodPHT/Pu8bzajZhifBXtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicole.rappe\\Source\\Repos\\Borealis\\Borealis\\Borealis.csproj",
+  "projectFilePath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",

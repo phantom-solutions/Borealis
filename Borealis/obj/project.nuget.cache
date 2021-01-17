@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MNracQq8KYMDHHjNMDCXaKHhWN/rmYqemR9BRgzKiIub89eTnfAAn6VX3zCWaSBorodPHT/Pu8bzajZhifBXtQ==",
+  "dgSpecHash": "tw4qZO7CSOzF6zOFXR2CN/0JXXFFmPMBT9Sb9B6Pv/C36s3au1tQRD2k7h5dGsn8kVnXAQ2HQEAHIcRN77vORA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nicole.rappe\\source\\repos\\Borealis\\Borealis\\Borealis.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,8 @@
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.113.2\\stub.system.data.sqlite.core.netstandard.1.0.113.2.nupkg.sha512",
+    "C:\\Users\\nicole.rappe\\.nuget\\packages\\system.data.sqlite.core\\1.0.113.7\\system.data.sqlite.core.1.0.113.7.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\nicole.rappe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
   ],

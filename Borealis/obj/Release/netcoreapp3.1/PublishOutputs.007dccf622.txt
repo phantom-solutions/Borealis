@@ -27,6 +27,11 @@ C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\P
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\System.Data.SQLite.dll
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\SQLite.Interop.dll
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\Borealis.Views.dll
 C:\Users\nicole.rappe\source\repos\Borealis\Borealis\obj\Release\netcoreapp3.1\PubTmp\Out\Borealis.Views.pdb

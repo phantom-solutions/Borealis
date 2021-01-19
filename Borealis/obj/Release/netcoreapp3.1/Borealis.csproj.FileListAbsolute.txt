@@ -108,3 +108,8 @@ C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\M
 C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\bin\Release\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\obj\Release\netcoreapp3.1\Borealis.RazorComponent.output.cache
 C:\Users\nicole.rappe\Source\Repos\Borealis\Borealis\obj\Release\netcoreapp3.1\scopedcss\bundle\Borealis.styles.css
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\System.Data.SQLite.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Users\nicole.rappe\source\repos\Borealis\Borealis\bin\Release\netcoreapp3.1\runtimes\win-x86\native\SQLite.Interop.dll

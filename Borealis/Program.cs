@@ -7,9 +7,10 @@ namespace Borealis
     {
         public static void Main(string[] args)
         {
+            Database_Functions.InitializeDatabase();
+
             //THIS CREATES THE WEBSITE FRONT-END
             CreateHostBuilder(args).Build().Run();
-
         }
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>

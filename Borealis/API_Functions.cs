@@ -21,12 +21,13 @@ namespace Borealis.API
 
         //http://localhost:5000/api/server/query
         [HttpGet("query")]
-        public ControlPanel Query()
+        public Shared_Classes.ControlPanel Query()
         {
-            return new ControlPanel
+            return new Shared_Classes.ControlPanel
             {
                 IP = (Dns.GetHostAddresses(Dns.GetHostName())[1].ToString()),
-                HOSTNAME = Dns.GetHostName()
+                HOSTNAME = Dns.GetHostName(),
+                GUID = "PlaceholderGUID"
             };
         }
 
@@ -55,11 +56,6 @@ namespace Borealis.API
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
-        public class ControlPanel
-        {
-            public String IP { get; set; }
-            public String HOSTNAME { get; set; }
         }
     }
 }
